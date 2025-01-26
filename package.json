@@ -17,6 +17,8 @@
     "@radix-ui/react-separator": "^1.1.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-tooltip": "^1.1.4",
+    "@syncfusion/ej2-react-navigations": "^28.1.37",
+    "@syncfusion/ej2-react-pdfviewer": "^28.1.38",
     "@wojtekmaj/react-hooks": "^1.21.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",

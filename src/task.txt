@@ -1,0 +1,1 @@
+# El seleccionado no se tiene que poder seleccionar ya que con ctrl + delete, podrian borrarlo y el comentario relacionado no se borrara

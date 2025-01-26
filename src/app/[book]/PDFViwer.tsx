@@ -19,6 +19,7 @@ const PDFViwer = (props: any) => {
                 PSPDFKit.unload(container)
 
                 const instance = await PSPDFKit.load({
+                    licenseKey: 'ORg4AjUWIQA/Gnt2XVhhQlJHfV5AQmBIYVp/TGpJfl96cVxMZVVBJAtUQF1hTH5Sd0RiWHtadH1RQGBY',
                     container,
                     document: '/document.pdf',
                     baseUrl: `${window.location.protocol}//${window.location.host}/`,
@@ -38,7 +39,7 @@ const PDFViwer = (props: any) => {
                 if (defaultAnnotationToolbarItems) {
                     // Remove the default annotation toolbar item.
                     return defaultAnnotationToolbarItems.filter((item) =>
-                        !['annotation-note', 'spacer', 'color', 'opacity', 'blend-mode'].includes(item.type))
+                        ![ 'delete','annotation-note', 'spacer', 'color', 'opacity', 'blend-mode'].includes(item.type))
                 }
 
                 return defaultAnnotationToolbarItems
