@@ -23,22 +23,15 @@ module.exports = {
 					'900': 'var(--neutral900)',
 					'950': 'var(--neutral950)'
 				},
-				foreground: 'var(--foreground)',
 				sidebar: {
 					DEFAULT: 'var(--neutral950)',
 					foreground: 'var(--neutra800)',
-					// primary: 'var(--neutral950)',
-					// 'primary-foreground': ,
 					accent: 'var(--neutral800)',
 					'accent-foreground': 'var(--neutral50)',
 					border: 'var(--neutral800)',
-					// ring: 'var(--neutral50)'
 				}
 			}
 		}
 	},
-	plugins: [
-		require("tailwindcss-animate"),
-	],
 }
 
